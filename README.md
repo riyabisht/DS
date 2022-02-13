@@ -14,7 +14,4 @@
  - Binary Search Tree
     - [insertion and In order traversal](tree/BST.cpp)
 
-## Searching
- - [Binary sreach iteravitve](search/binarryseacrh2.cpp)
- - [Binary search recursive](search/binarysearch1.cpp)
- 
+
