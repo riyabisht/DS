@@ -1,6 +1,6 @@
 # Data Structure
 ## Graph
- - [BFS](BFS.cpp)
+ - [BFS](graph/BFS.cpp)
  - [DFS](DFS.cpp)
  - [Adjacency list](adj_list.cpp)
 
