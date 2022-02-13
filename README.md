@@ -1,20 +1,20 @@
 # Data Structure
 ## Graph
  - [BFS](graph/BFS.cpp)
- - [DFS](DFS.cpp)
- - [Adjacency list](adj_list.cpp)
+ - [DFS](graph/DFS.cpp)
+ - [Adjacency list](graph/adj_list.cpp)
 
 ## Tree
  - Binary Tree Traversal
-    - [Inorder](BT_inorder.cpp)
-    - [Postorder](BT_levelorder.cpp)
-    - [Preorder](BT_preorder.cpp)
-    - [Levelorder](BT_levelorder.cpp)
+    - [Inorder](tree/BT_inorder.cpp)
+    - [Postorder](tree/BT_levelorder.cpp)
+    - [Preorder](tree/BT_preorder.cpp)
+    - [Levelorder](tree/BT_levelorder.cpp)
  
  - Binary Search Tree
-    - [insertion and In order traversal](BST.cpp)
+    - [insertion and In order traversal](tree/BST.cpp)
 
 ## Searching
- - [Binary sreach iteravitve](binarryseacrh2.cpp)
- - [Binary search recursive](binarysearch1.cpp)
+ - [Binary sreach iteravitve](search/binarryseacrh2.cpp)
+ - [Binary search recursive](search/binarysearch1.cpp)
  
