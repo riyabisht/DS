@@ -14,4 +14,14 @@
  - Binary Search Tree
     - [insertion and In order traversal](tree/BST.cpp)
 
+## Heap
+
+## Stack
+
+## Queue
+
+## Hashing
+
+## Backtraking
+
 
