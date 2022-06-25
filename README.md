@@ -3,6 +3,7 @@
  - [BFS](graph/BFS.cpp)
  - [DFS](graph/DFS.cpp)
  - [Adjacency list](graph/adj_list.cpp)
+ - [Prims](graph/prims.cpp)
 
 ## Tree
  - Binary Tree Traversal
