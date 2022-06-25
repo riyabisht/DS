@@ -4,7 +4,7 @@
  - [DFS](graph/DFS.cpp)
  - [Adjacency list](graph/adj_list.cpp)
  - [Prims](graph/prims.cpp)
-
+ - [Dijkstra](graph/dijkstra.cpp)
 ## Tree
  - Binary Tree Traversal
     - [Inorder](tree/BT_inorder.cpp)
