@@ -2,7 +2,9 @@
 
 ## DP
 
-- [fractional knapsack](3.dp/fracttional_knapSack.cpp)
+## Greedy
+
+- [fractional knapsack](9.greedy/fracttional_knapSack.cpp)
 
 
 ## Graph
