@@ -31,7 +31,7 @@
 
 - Doubly Linked list
    - [LRU](6.linkedList/doublyList/LRU_hash.cpp)
-   - data structure used : queue , unordered_map
+   - data structure used : `queue` , `unordered_map`
    - O(1) : insertion ,deletion in doubly linked list
    - O(n) : searching in doubly linked list
    - O(1) : insertion , deletion , search unordered_map 
