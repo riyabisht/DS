@@ -54,8 +54,8 @@
 
 ## Backtraking
 
--[Knight-Tour](10.backtracking/1_knightTourProblem.cpp)
--[rat-Maze](10.backtracking/2_ratMaze.cpp)
--[n-Queens](./10.backtracking/3_nQueens.cpp)
+-  [Knight-Tour](./10.backtracking/1_knightTourProblem.cpp)
+-  [rat-Maze](./10.backtracking/2_ratMaze.cpp)
+-  [n-Queens](./10.backtracking/3_nQueens.cpp)
 
 
