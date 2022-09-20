@@ -16,9 +16,37 @@ public:
     adj = vector<vector<pair<int, int>>>(vertex);
     visited = vector<int>(vertex, INT_MIN);
   }
-  // longest Path in DAG
 
-  // dfs
+  // longest Path in DAG
+  void longestPath(int vertex, int source) {
+    // find topological order
+    for (int i = 0; i < vertex; i++) {
+      topological_order(i);
+    }
+
+    //reinitialise 
+    for (int i = 0; i < visited.size(); i++)
+      visited[i] = INT_MIN;
+    visited[source] = 0;
+
+    while (!st.empty()) {
+
+      int u = st.top();
+      st.pop();
+      if (visited[u] != INT_MIN) {
+        // source vertex
+        for (auto i : adj[u]) {
+          if (visited[i.first] < visited[u] + i.second)
+            visited[i.first] = visited[u] + i.second;
+        }
+      }
+    }
+    
+    for (auto i : visited) {
+      (i == INT_MIN) ? cout << "INF" : cout << i << " ";
+    }
+  }
+
   // topological sort
   void topological_order(int u) {
     // if not visited
@@ -41,6 +69,7 @@ public:
       cout << st.top();
       st.pop();
     }
+    cout << endl;
   }
 
   // print graph
@@ -69,21 +98,8 @@ int main() {
     cin >> u >> v >> weight;
     g.addEdge(u, v, weight);
   }
-  g.printGraph(vertex);
 
-  // find topological order
-  for (int i = 0; i < vertex; i++) {
-    g.topological_order(i);
-  }
-
-  // reinitiallise all vertices
-  g.visited = vector<int>(vertex, INT_MIN);
-  g.visited[source] = 0;
-  for (int i = 0; i < vertex; i++) {
-    // source vertex
-    if (g.visited[i] != INT_MIN) {
-    }
-  }
+  g.longestPath(vertex, source);
 
   return 0;
 }

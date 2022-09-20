@@ -15,6 +15,7 @@
 - [Prims](4.graph/prims.cpp)
 - [Dijkstra](4.graph/dijkstra.cpp)
 - [Prims](4.graph/prims.cpp)
+- [Longest Path of every node from source node in DAG](4.graph/longest_path_DAG.cpp)
 
 ## Tree
 
