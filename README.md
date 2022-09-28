@@ -6,7 +6,6 @@
 
 - [fractional knapsack](9.greedy/fracttional_knapSack.cpp)
 
-
 ## Graph
 
 - [Adjacency list](4.graph/adj_list.cpp)
@@ -14,7 +13,6 @@
 - [DFS](4.graph/DFS.cpp)
 - [Prims](4.graph/prims.cpp)
 - [Dijkstra](4.graph/dijkstra.cpp)
-- [Prims](4.graph/prims.cpp)
 - [Longest Path of every node from source node in DAG](4.graph/longest_path_DAG.cpp)
    - topological sort and vsit node according to the topological order
    - topological sort :time complexity O(V+E)
