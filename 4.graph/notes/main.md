@@ -40,7 +40,9 @@
   - step3: if cycle not formed, include this edge.Else discard it.
   - step4: Repeat step2 until there are n-1 edges in the spanning tree.
 
-  - use Uninon find to detect cycle   
+  - use Uninon find to detect cycle
+
+  - [kruskal's algo](E:\Programming\github\DSA\4.graph\kruskal.cpp)   
 
 ### Prim algorithms (Greedy Algorithms)
   - Brovuka'a Algorithm

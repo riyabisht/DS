@@ -11,6 +11,12 @@
 - [Adjacency list](4.graph/adj_list.cpp)
 - [DFS](4.graph/DFS.cpp)
 - [BFS](4.graph/BFS.cpp)
+- [kruskal's](4.graph/kruskal.cpp)
+   - sorting edge list O(ElogE)
+   - travese edge List O(E)
+   - find and union O(logE)
+   - overall time complexity O(ElogE)
+   - E = no. of edges
 - [Prims](4.graph/prims.cpp)
 - [Dijkstra](4.graph/dijkstra.cpp)
 - [Longest Path of every node from source node in DAG](4.graph/longest_path_DAG.cpp)
