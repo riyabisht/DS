@@ -9,8 +9,8 @@
 ## Graph
 
 - [Adjacency list](4.graph/adj_list.cpp)
-- [BFS](4.graph/BFS.cpp)
 - [DFS](4.graph/DFS.cpp)
+- [BFS](4.graph/BFS.cpp)
 - [Prims](4.graph/prims.cpp)
 - [Dijkstra](4.graph/dijkstra.cpp)
 - [Longest Path of every node from source node in DAG](4.graph/longest_path_DAG.cpp)
