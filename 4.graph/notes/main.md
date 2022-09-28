@@ -42,7 +42,7 @@
 
   - use Uninon find to detect cycle
 
-  - [kruskal's algo](..\kruskal.cpp)   
+  - [kruskal's algo](.\4.graph\kruskal.cpp)   
 
 ### Prim algorithms (Greedy Algorithms)
   - Brovuka'a Algorithm
