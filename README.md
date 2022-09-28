@@ -8,6 +8,8 @@
 
 ## Graph
 
+[Graph notes](4.graph/notes/main.md)
+
 - [Adjacency list](4.graph/adj_list.cpp)
 - [DFS](4.graph/DFS.cpp)
 - [BFS](4.graph/BFS.cpp)
