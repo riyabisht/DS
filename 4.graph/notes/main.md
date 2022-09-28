@@ -35,7 +35,7 @@
 ### Kruskal Algorithm
   - Greedy approch
   
-  - step1: sort edges in non-decresing order of their weights
+  - step1: sort edges in accending order of their weights
   - step2: pick smallest edge and check weather it forms cycle with spanning tree formed so far
   - step3: if cycle not formed, include this edge.Else discard it.
   - step4: Repeat step2 until there are n-1 edges in the spanning tree.
