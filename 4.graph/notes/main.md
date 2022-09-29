@@ -23,13 +23,15 @@
 
 ## minimum spanning trees
 - MST - Minimum spanning Tree
-   - connected, undirected, weighted subgraph
+   - connected, undirected, +ve weighted subgraph
+   - used to find min weight set of edges that connects all of the vertices.
    - spanning tree with a weight less than or equal to the weight of every other spanning tree.
    - if 'n' nodes then n-1 edges
 
 - Applications of mst
       
   - Network design : lines that connects all your offices with a minimum total cost.
+  - telephone, electrical, hydraulic, TV cable, computer, road
   - Travelling saleperson problem, Steiner tree
 
 ### Kruskal Algorithm
